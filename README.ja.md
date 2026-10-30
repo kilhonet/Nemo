@@ -6,7 +6,7 @@
 
 > この文書は翻訳版です。内容に違いがある場合は[韓国語版](README.ko.md)が基準となります。
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%207%20%2F%208%20%2F%2010%20%2F%2011-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/nemo?lang=ja)
 
@@ -40,7 +40,7 @@ Nemo は、思いついたことをメモに書いてデスクトップに貼っ
 | インストーラー | [ダウンロード](https://down.kilho.net/nemo?lang=ja) |
 | ポータブル (ZIP) | [ダウンロード](https://down.kilho.net/nemo?lang=ja&nosetup) |
 
-インストーラーは **管理者権限なしで** インストールでき、初めてのインストール時に **起動時に実行** がオンになります。ポータブル版は ZIP を展開して `Nemo.exe` を実行するだけです。ポータブル版はメモをプログラムと同じフォルダーに保存するので、フォルダーごと移せばメモも一緒に移ります。
+インストーラー版は初めてのインストール時に **起動時に実行** がオンになります。ポータブル版は ZIP を展開して `Nemo.exe` を実行するだけです。ポータブル版はメモをプログラムと同じフォルダーに保存するので、フォルダーごと移せばメモも一緒に移ります。
 
 ## 使い方
 
@@ -168,8 +168,7 @@ Nemo は一度に一つしか起動しません。すでに起動していると
 
 ## 動作環境
 
-- Windows 10 · Windows 11(32 ビット · 64 ビット)
-- 管理者権限は不要です。
+- Windows 7 · 8 · 8.1 · 10 · 11(32 ビット · 64 ビット)
 - 追加のランタイムは不要です。
 - サーバー同期を使うときだけ、インターネット接続と Kilho.net アカウントが必要です。
 

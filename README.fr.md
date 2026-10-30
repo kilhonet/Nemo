@@ -6,7 +6,7 @@
 
 > Ce document est une traduction. En cas de différence, la [version coréenne](README.ko.md) fait foi.
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%207%20%2F%208%20%2F%2010%20%2F%2011-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/nemo?lang=fr)
 
@@ -40,7 +40,7 @@ Les notes sont **d'abord enregistrées sur ce PC** : vous pouvez donc utiliser N
 | Programme d'installation | [Télécharger](https://down.kilho.net/nemo?lang=fr) |
 | Portable (ZIP) | [Télécharger](https://down.kilho.net/nemo?lang=fr&nosetup) |
 
-Le programme d'installation **ne demande pas de droits administrateur**, et une première installation active **Lancer au démarrage**. Pour la version portable, décompressez le ZIP et lancez `Nemo.exe`. La version portable garde vos notes dans le même dossier que le programme : déplacer le dossier déplace vos notes avec lui.
+Une première installation avec le programme d'installation active **Lancer au démarrage**. Pour la version portable, décompressez le ZIP et lancez `Nemo.exe`. La version portable garde vos notes dans le même dossier que le programme : déplacer le dossier déplace vos notes avec lui.
 
 ## Utilisation
 
@@ -168,8 +168,7 @@ Avec **Système**, la langue suit la langue d'affichage de Windows ; choisissez-
 
 ## Configuration requise
 
-- Windows 10 · Windows 11 (32 bits · 64 bits)
-- Aucun droit administrateur nécessaire.
+- Windows 7 · 8 · 8.1 · 10 · 11 (32 bits · 64 bits)
 - Aucun runtime supplémentaire nécessaire.
 - Une connexion internet et un compte Kilho.net ne sont nécessaires que pour la synchronisation avec le serveur.
 

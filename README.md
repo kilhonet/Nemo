@@ -6,7 +6,7 @@ English · [한국어](README.ko.md) · [简体中文](README.zh-CN.md) · [日�
 
 > This document is a translation. If anything differs, the [Korean version](README.ko.md) is authoritative.
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%207%20%2F%208%20%2F%2010%20%2F%2011-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/nemo?lang=en)
 
@@ -40,7 +40,7 @@ Notes are **saved on this PC first**, so you can use Nemo without signing in and
 | Installer | [Download](https://down.kilho.net/nemo?lang=en) |
 | Portable (ZIP) | [Download](https://down.kilho.net/nemo?lang=en&nosetup) |
 
-The installer needs **no administrator rights**, and a first-time install turns on **Run at startup**. For the portable version, unzip it and run `Nemo.exe`. The portable version keeps your notes in the same folder as the program, so moving the folder moves your notes with it.
+A first-time install of the installer version turns on **Run at startup**. For the portable version, unzip it and run `Nemo.exe`. The portable version keeps your notes in the same folder as the program, so moving the folder moves your notes with it.
 
 ## Usage
 
@@ -168,8 +168,7 @@ With **System**, the language follows the Windows display language; pick one fro
 
 ## Requirements
 
-- Windows 10 · Windows 11 (32-bit · 64-bit)
-- No administrator rights needed.
+- Windows 7 · 8 · 8.1 · 10 · 11 (32-bit · 64-bit)
 - No extra runtime needed.
 - An internet connection and a Kilho.net account are needed only for server sync.
 

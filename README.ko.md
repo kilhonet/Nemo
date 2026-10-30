@@ -4,7 +4,7 @@
 
 [English](README.md) · 한국어 · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [Português (Brasil)](README.pt-BR.md) · [Français](README.fr.md)
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%207%20%2F%208%20%2F%2010%20%2F%2011-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/nemo?lang=ko)
 
@@ -38,7 +38,7 @@
 | 설치 파일 | [다운로드](https://down.kilho.net/nemo?lang=ko) |
 | 무설치 (ZIP) | [다운로드](https://down.kilho.net/nemo?lang=ko&nosetup) |
 
-설치판은 **관리자 권한 없이** 설치되고, 처음 설치할 때 **부팅시 실행**이 켜집니다. 무설치판은 ZIP 을 풀고 `Nemo.exe` 를 실행하면 됩니다. 무설치판은 메모를 프로그램과 같은 폴더에 저장하므로 폴더째 옮기면 메모도 함께 옮겨집니다.
+설치판은 처음 설치할 때 **부팅시 실행**이 켜집니다. 무설치판은 ZIP 을 풀고 `Nemo.exe` 를 실행하면 됩니다. 무설치판은 메모를 프로그램과 같은 폴더에 저장하므로 폴더째 옮기면 메모도 함께 옮겨집니다.
 
 ## 사용법
 
@@ -166,8 +166,7 @@
 
 ## 요구 사항
 
-- Windows 10 · Windows 11 (32비트 · 64비트)
-- 관리자 권한이 필요 없습니다.
+- Windows 7 · 8 · 8.1 · 10 · 11 (32비트 · 64비트)
 - 별도 런타임이 필요 없습니다.
 - 서버 동기화를 쓸 때만 인터넷 연결과 길호넷 계정이 필요합니다.
 

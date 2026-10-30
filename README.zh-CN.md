@@ -6,7 +6,7 @@
 
 > 本文档为翻译版本。如有出入,以[韩文版](README.ko.md)为准。
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-0078D4)
+![Platform](https://img.shields.io/badge/platform-Windows%207%20%2F%208%20%2F%2010%20%2F%2011-0078D4)
 ![License](https://img.shields.io/badge/license-Freeware-brightgreen)
 [![Download](https://img.shields.io/badge/download-kilho.net-orange)](https://down.kilho.net/nemo?lang=zh)
 
@@ -40,7 +40,7 @@ Nemo 让您把想到的事情写在便笺上,贴在桌面上。每张便笺由�
 | 安装程序 | [下载](https://down.kilho.net/nemo?lang=zh) |
 | 免安装版 (ZIP) | [下载](https://down.kilho.net/nemo?lang=zh&nosetup) |
 
-安装程序**无需管理员权限**,首次安装时会开启 **开机时运行**。免安装版解压 ZIP 后运行 `Nemo.exe` 即可。免安装版把便笺保存在程序所在的文件夹中,整个文件夹移到哪里,便笺就跟到哪里。
+安装版首次安装时会开启 **开机时运行**。免安装版解压 ZIP 后运行 `Nemo.exe` 即可。免安装版把便笺保存在程序所在的文件夹中,整个文件夹移到哪里,便笺就跟到哪里。
 
 ## 使用方法
 
@@ -168,8 +168,7 @@ Nemo 同一时间只运行一个。如果在已经运行时再次启动,隐藏�
 
 ## 系统要求
 
-- Windows 10 · Windows 11(32 位 · 64 位)
-- 无需管理员权限。
+- Windows 7 · 8 · 8.1 · 10 · 11(32 位 · 64 位)
 - 无需额外的运行库。
 - 仅在使用服务器同步时需要网络连接和 Kilho.net 账户。
 
