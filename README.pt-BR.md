@@ -169,6 +169,7 @@ Com **Sistema**, o idioma segue o idioma de exibição do Windows; escolha um na
 ## Requisitos
 
 - Windows 7 · 8 · 8.1 · 10 · 11 (32 bits · 64 bits)
+- O Windows 7 precisa do Service Pack 1 (SP1) e das atualizações mais recentes do Windows.
 - Não precisa de runtime adicional.
 - Conexão com a internet e conta Kilho.net são necessárias só para a sincronização com o servidor.
 

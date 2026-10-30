@@ -169,6 +169,7 @@ With **System**, the language follows the Windows display language; pick one fro
 ## Requirements
 
 - Windows 7 · 8 · 8.1 · 10 · 11 (32-bit · 64-bit)
+- Windows 7 needs Service Pack 1 (SP1) and the latest Windows updates.
 - No extra runtime needed.
 - An internet connection and a Kilho.net account are needed only for server sync.
 

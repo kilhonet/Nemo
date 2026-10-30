@@ -169,6 +169,7 @@ Avec **Système**, la langue suit la langue d'affichage de Windows ; choisissez-
 ## Configuration requise
 
 - Windows 7 · 8 · 8.1 · 10 · 11 (32 bits · 64 bits)
+- Windows 7 nécessite le Service Pack 1 (SP1) et les dernières mises à jour de Windows.
 - Aucun runtime supplémentaire nécessaire.
 - Une connexion internet et un compte Kilho.net ne sont nécessaires que pour la synchronisation avec le serveur.
 
