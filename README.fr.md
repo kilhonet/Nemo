@@ -26,6 +26,7 @@ Les notes sont **d'abord enregistrées sur ce PC** : vous pouvez donc utiliser N
 - **6 couleurs** — Par défaut · Jaune · Vert · Bleu · Violet · Rose. Dans la liste, chaque ligne prend la couleur de sa note : on les distingue d'un coup d'œil.
 - **Toujours au premier plan** — une note épinglée n'est jamais cachée derrière d'autres fenêtres.
 - **Recherche dans les notes** — la loupe de la fenêtre de liste cherche dans les titres et les corps.
+- **Votre propre ordre** — faites glisser les notes dans la liste pour les réordonner. L'ordre est repris sur vos autres PC connectés.
 - **Raccourci pour une nouvelle note** — appuyez sur **Ctrl+Shift+N** depuis n'importe quel programme pour ouvrir une nouvelle note. La touche peut être changée.
 - **Fonctionne sans serveur** — la connexion est facultative. Quand vous vous déconnectez, les notes de ce PC restent.
 - **Synchronisation entre PC et web** — une fois connecté, Nemo se synchronise avec le serveur 2 secondes après l'enregistrement, toutes les 10 minutes ou quand vous cliquez sur **Synchroniser**. Si la même note a été modifiée à deux endroits, aucune modification n'est perdue : les deux sont conservées, l'une en **copie en conflit**.
@@ -40,7 +41,7 @@ Les notes sont **d'abord enregistrées sur ce PC** : vous pouvez donc utiliser N
 | Programme d'installation | [Télécharger](https://down.kilho.net/nemo?lang=fr) |
 | Portable (ZIP) | [Télécharger](https://down.kilho.net/nemo?lang=fr&nosetup) |
 
-Une première installation avec le programme d'installation active **Lancer au démarrage**. Pour la version portable, décompressez le ZIP et lancez `Nemo.exe`. La version portable garde vos notes dans le même dossier que le programme : déplacer le dossier déplace vos notes avec lui.
+Une première installation avec le programme d'installation active **Lancer au démarrage**. Pour la version portable, décompressez le ZIP et lancez `Nemo.exe`. **Lancer au démarrage** n'est disponible que dans la version installée. La version portable garde vos notes dans le même dossier que le programme : déplacer le dossier déplace vos notes avec lui.
 
 ## Utilisation
 
@@ -62,7 +63,7 @@ Une première installation avec le programme d'installation active **Lancer au d
 | Loupe (barre de titre) | Rechercher dans les notes. Cherche dans les titres et les corps ; **ÉCHAP** la ferme |
 | Engrenage (barre de titre) | Paramètres |
 | ✕ (barre de titre) | Cache la fenêtre de liste dans la zone de notification. Nemo continue de tourner |
-| Liste des notes | Affichées dans l'ordre de création, chaque ligne dans la couleur de sa note. Double-cliquez pour ouvrir la note |
+| Liste des notes | Les nouvelles notes s'ajoutent en haut, et vous pouvez les faire glisser pour changer l'ordre. Chaque ligne est dans la couleur de sa note. **↑** et **↓** déplacent la sélection ; double-cliquez pour ouvrir la note. La barre de défilement n'apparaît que lorsque la souris est dessus ou pendant le défilement |
 | Barre d'état, à gauche | **Notes : n** |
 | Barre d'état, à droite — icône de nuage | Connexion au serveur. Survolez-la pour voir **Enregistré sur ce PC uniquement** · **Connecté au serveur (compte)** · **Dernière synchro** ; cliquez pour ouvrir la page **Serveur** des Paramètres |
 
@@ -73,7 +74,7 @@ Une première installation avec le programme d'installation active **Lancer au d
 | Barre de titre | Faites-la glisser pour déplacer la note. Cliquez deux fois sur le titre ou double-cliquez pour le renommer. Clic droit pour le menu de la note |
 | Épingle | Active ou désactive **Toujours au premier plan**. Désactivée, elle apparaît barrée |
 | ✕ | Enregistrer et fermer |
-| Corps | Le texte de la note. Une barre de défilement apparaît quand la souris est dessus |
+| Corps | Le texte de la note. **Tab** insère 4 espaces. La barre de défilement n'apparaît que lorsque la souris est dessus ou pendant le défilement |
 | Bords | Faites-les glisser pour redimensionner |
 
 **Menu contextuel**
@@ -98,16 +99,22 @@ Même dans un autre programme, appuyez sur **Ctrl+Shift+N** et une nouvelle note
 Cliquez sur l'épingle de la note pour activer **Toujours au premier plan** ; les autres fenêtres ne la cacheront pas. Cliquez à nouveau pour désactiver. L'épingle est aussi restaurée au lancement suivant.
 
 **Quand vos notes sont enfouies sous d'autres fenêtres**
-Faites un clic gauche sur l'icône Nemo de la zone de notification pour ramener au premier plan toutes les notes ouvertes. La fenêtre de liste ne bouge pas. Si vous avez besoin de la fenêtre de liste, faites un clic droit sur l'icône et choisissez **Liste**.
+Faites un clic gauche sur l'icône Nemo de la zone de notification pour ramener au premier plan toutes les notes ouvertes. La fenêtre de liste ne bouge pas. Si aucune note n'est ouverte, c'est la fenêtre de liste qui s'ouvre. Si vous avez besoin de la fenêtre de liste alors que des notes sont ouvertes, faites un clic droit sur l'icône et choisissez **Liste**.
 
 **Quand vous voulez classer les notes par type**
 Choisissez un code couleur : jaune pour les tâches, bleu pour le travail, etc. Faites un clic droit sur la barre de titre d'une note ou sur une note de la liste → **Couleur ▸**, et la note comme sa ligne dans la liste changent aussitôt de couleur.
+
+**Quand vous voulez vos notes les plus utilisées en haut**
+Appuyez sur une note de la liste et faites-la glisser là où vous voulez. En la glissant au bord de la liste, celle-ci défile toute seule. Le nouvel ordre est enregistré aussitôt et, si vous êtes connecté, la liste de vos autres PC suit le même ordre. Les nouvelles notes s'ajoutent en haut.
 
 **Quand vous avez trop de notes pour en retrouver une**
 Cliquez sur la loupe dans la barre de titre de la fenêtre de liste et tapez ce que vous cherchez. Seules restent les notes qui contiennent ce texte dans le titre ou le corps. Appuyez sur **ÉCHAP** pour fermer la recherche et revoir toute la liste.
 
 **Quand vous voulez seulement renommer une note**
 Cliquez sur le titre de la note puis, un instant après, cliquez à nouveau (comme pour renommer un fichier dans l'Explorateur de fichiers), double-cliquez dessus, ou faites un clic droit sur la barre de titre → **Modifier**. **Entrée** valide, **Échap** rétablit l'ancien titre. Cliquer ailleurs conserve aussi ce que vous avez tapé.
+
+**Quand vous voulez indenter du texte dans une note**
+Appuyez sur **Tab** dans le corps pour insérer 4 espaces. En cas d'erreur, un seul Ctrl+Z supprime les 4.
 
 **Quand vous voulez ranger la liste mais garder les notes**
 Cliquez sur le **✕** de la fenêtre de liste ; elle passe dans la zone de notification et vos notes restent sur le bureau. Pour fermer complètement Nemo, choisissez **Quitter** dans le menu de la zone de notification.
@@ -116,7 +123,7 @@ Cliquez sur le **✕** de la fenêtre de liste ; elle passe dans la zone de noti
 Même si vous éteignez Windows ou quittez Nemo avec des notes ouvertes, elles réapparaissent au même endroit et à la même taille au prochain lancement de Nemo. Si une note devait se retrouver hors de l'écran parce que la configuration des écrans a changé, elle est ramenée dans l'écran.
 
 **Quand vous voulez voir vos notes à chaque démarrage du PC**
-Activez **Lancer au démarrage** dans Paramètres → **Général** (c'est déjà activé avec le programme d'installation). Au démarrage de Windows, Nemo se lance discrètement dans la zone de notification sans la fenêtre de liste, et seules les notes laissées ouvertes apparaissent sur le bureau.
+Activez **Lancer au démarrage** dans Paramètres → **Général** (c'est déjà activé avec le programme d'installation). Cette option n'est disponible que dans la version installée ; dans la version portable, elle est grisée. Au démarrage de Windows, Nemo se lance discrètement dans la zone de notification sans la fenêtre de liste, et seules les notes laissées ouvertes apparaissent sur le bureau.
 
 **Quand vous voulez les mêmes notes au bureau et à la maison**
 Sur les deux PC, cliquez sur **Connexion** dans Paramètres → **Serveur**. Le navigateur s'ouvre ; connectez-vous avec votre compte Kilho.net et, quand la page « Connecté » s'affiche, fermez-la et revenez à Nemo. Dès lors, les notes se synchronisent seules 2 secondes après l'enregistrement et toutes les 10 minutes. Pour synchroniser tout de suite, cliquez sur **Synchroniser**.
@@ -157,7 +164,7 @@ Ouvrez-la avec l'engrenage de la fenêtre de liste ou **Paramètres** dans le me
 
 | Page | Élément | Par défaut |
 |---|---|---|
-| Général | Lancer au démarrage | Activé avec le programme d'installation, désactivé en version portable |
+| Général | Lancer au démarrage | Activé avec le programme d'installation (non disponible en version portable) |
 | Général | Raccourci (nouvelle note) | Ctrl+Shift+N |
 | Général | Langue | Système (langue d'affichage de Windows) |
 | Serveur | Compte — Connexion / Déconnexion | Non connecté |

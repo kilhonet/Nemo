@@ -26,6 +26,7 @@ Las notas se **guardan primero en este PC**, así que puedes usar Nemo sin inici
 - **6 colores** — Predeterminado · Amarillo · Verde · Azul · Morado · Rosa. En la lista, cada fila lleva el color de su nota, así se distinguen de un vistazo.
 - **Siempre visible** — una nota fijada nunca queda oculta tras otras ventanas.
 - **Búsqueda de notas** — la lupa de la ventana de lista busca en títulos y cuerpos.
+- **Tu propio orden** — arrastra las notas en la lista para reordenarlas. El orden se aplica también en tus otros PC con sesión iniciada.
 - **Atajo para nueva nota** — pulsa **Ctrl+Shift+N** desde cualquier programa para abrir una nota nueva. Puedes cambiar la tecla.
 - **Funciona sin servidor** — iniciar sesión es opcional. Al cerrar sesión, las notas de este PC se quedan.
 - **Sincronización entre PC y la web** — con la sesión iniciada, Nemo se sincroniza con el servidor 2 segundos después de guardar, cada 10 minutos o al pulsar **Sincronizar**. Si la misma nota se editó en dos sitios, no se descarta ninguna edición: se conservan ambas, una como **copia en conflicto**.
@@ -40,7 +41,7 @@ Las notas se **guardan primero en este PC**, así que puedes usar Nemo sin inici
 | Instalador | [Descargar](https://down.kilho.net/nemo?lang=es) |
 | Portable (ZIP) | [Descargar](https://down.kilho.net/nemo?lang=es&nosetup) |
 
-En la primera instalación, el instalador activa **Ejecutar al iniciar**. Para la versión portable, descomprime el ZIP y ejecuta `Nemo.exe`. La versión portable guarda tus notas en la misma carpeta que el programa, así que al mover la carpeta tus notas se mueven con ella.
+En la primera instalación, el instalador activa **Ejecutar al iniciar**. Para la versión portable, descomprime el ZIP y ejecuta `Nemo.exe`. **Ejecutar al iniciar** solo está disponible en la versión instalada. La versión portable guarda tus notas en la misma carpeta que el programa, así que al mover la carpeta tus notas se mueven con ella.
 
 ## Uso
 
@@ -62,7 +63,7 @@ En la primera instalación, el instalador activa **Ejecutar al iniciar**. Para l
 | Lupa (barra de título) | Buscar notas. Busca en títulos y cuerpos; **ESC** la cierra |
 | Engranaje (barra de título) | Configuración |
 | ✕ (barra de título) | Oculta la ventana de lista en la bandeja. Nemo sigue funcionando |
-| Lista de notas | Se muestran en el orden en que se crearon, cada fila con el color de su nota. Doble clic para abrir la nota |
+| Lista de notas | Las notas nuevas aparecen arriba y puedes arrastrarlas para cambiar el orden. Cada fila tiene el color de su nota. **↑** y **↓** mueven la selección; doble clic para abrir la nota. La barra de desplazamiento solo aparece al pasar el ratón o al desplazarte |
 | Barra de estado, izquierda | **Notas: n** |
 | Barra de estado, derecha — icono de nube | Conexión con el servidor. Al pasar el ratón muestra **Guardado solo en este PC** · **Conectado al servidor (cuenta)** · **Última sincronización**; al hacer clic abre la página **Servidor** de Configuración |
 
@@ -73,7 +74,7 @@ En la primera instalación, el instalador activa **Ejecutar al iniciar**. Para l
 | Barra de título | Arrástrala para mover la nota. Haz clic dos veces en el título o doble clic para renombrarla. Clic derecho para el menú de la nota |
 | Chincheta | Activa o desactiva **Siempre visible**. Desactivada se muestra como una chincheta tachada |
 | ✕ | Guardar y cerrar |
-| Cuerpo | El texto de la nota. Aparece una barra de desplazamiento al pasar el ratón |
+| Cuerpo | El texto de la nota. **Tab** inserta 4 espacios. La barra de desplazamiento solo aparece al pasar el ratón o al desplazarte |
 | Bordes | Arrástralos para cambiar el tamaño |
 
 **Menú contextual**
@@ -98,16 +99,22 @@ Aunque estés en otro programa, pulsa **Ctrl+Shift+N** y aparece delante una not
 Haz clic en la chincheta de la nota para activar **Siempre visible**; las demás ventanas no la taparán. Vuelve a hacer clic para desactivarla. La fijación también se restaura en el siguiente inicio.
 
 **Cuando tus notas quedan enterradas tras otras ventanas**
-Haz clic izquierdo en el icono de Nemo de la bandeja para traer al frente todas las notas abiertas. La ventana de lista se queda donde está. Si necesitas la ventana de lista, haz clic derecho en el icono de la bandeja y elige **Lista**.
+Haz clic izquierdo en el icono de Nemo de la bandeja para traer al frente todas las notas abiertas. La ventana de lista se queda donde está. Si no hay ninguna nota abierta, se abre la ventana de lista. Si necesitas la ventana de lista mientras hay notas abiertas, haz clic derecho en el icono de la bandeja y elige **Lista**.
 
 **Cuando quieres ordenar las notas por tipo**
 Decide un código de colores: amarillo para tareas, azul para trabajo, etc. Haz clic derecho en la barra de título de una nota o en una nota de la lista → **Color ▸**, y tanto la nota como su fila en la lista cambian de color al instante.
+
+**Cuando quieres las notas que más usas arriba**
+Pulsa sobre una nota de la lista y arrástrala hasta donde quieras. Si la arrastras al borde de la lista, esta se desplaza sola. El nuevo orden se guarda al instante y, si has iniciado sesión, la lista de tus otros PC sigue el mismo orden. Las notas nuevas se añaden arriba.
 
 **Cuando tienes tantas notas que no encuentras una**
 Haz clic en la lupa de la barra de título de la ventana de lista y escribe lo que buscas. Solo quedan las notas con ese texto en el título o el cuerpo. Pulsa **ESC** para cerrar la búsqueda y volver a ver toda la lista.
 
 **Cuando solo quieres renombrar una nota**
 Haz clic en el título de la nota y, un momento después, otra vez (igual que al renombrar un archivo en el Explorador de archivos), haz doble clic o haz clic derecho en la barra de título → **Editar**. **Enter** confirma y **Esc** recupera el título anterior. Hacer clic en otro sitio también conserva lo que escribiste.
+
+**Cuando quieres sangrar texto en una nota**
+Pulsa **Tab** en el cuerpo para insertar 4 espacios. Si lo pulsaste por error, un solo Ctrl+Z quita los 4.
 
 **Cuando quieres quitar la lista de en medio pero conservar las notas**
 Haz clic en la **✕** de la ventana de lista; pasa a la bandeja y tus notas se quedan en el escritorio. Para cerrar Nemo del todo, elige **Salir** en el menú de la bandeja.
@@ -116,7 +123,7 @@ Haz clic en la **✕** de la ventana de lista; pasa a la bandeja y tus notas se 
 Aunque apagues Windows o salgas de Nemo con notas abiertas, reaparecen en el mismo sitio y con el mismo tamaño la próxima vez que inicies Nemo. Si una nota quedara fuera de la pantalla porque cambió la configuración de monitores, se vuelve a colocar dentro de la pantalla.
 
 **Cuando quieres ver tus notas cada vez que se enciende el PC**
-Activa **Ejecutar al iniciar** en Configuración → **General** (con el instalador ya viene activado). Al arrancar Windows, Nemo se inicia discretamente en la bandeja sin la ventana de lista, y solo aparecen en el escritorio las notas que dejaste abiertas.
+Activa **Ejecutar al iniciar** en Configuración → **General** (con el instalador ya viene activado). Esta opción solo está disponible en la versión instalada; en la versión portable aparece atenuada. Al arrancar Windows, Nemo se inicia discretamente en la bandeja sin la ventana de lista, y solo aparecen en el escritorio las notas que dejaste abiertas.
 
 **Cuando quieres las mismas notas en el trabajo y en casa**
 En ambos PC, haz clic en **Iniciar sesión** en Configuración → **Servidor**. Se abre el navegador; inicia sesión con tu cuenta de Kilho.net y, cuando aparezca la página «Sesión iniciada», ciérrala y vuelve a Nemo. A partir de entonces las notas se sincronizan solas 2 segundos después de guardar y cada 10 minutos. Para sincronizar ahora mismo, haz clic en **Sincronizar**.
@@ -157,7 +164,7 @@ Solo se ejecuta una copia de Nemo a la vez. Si lo inicias cuando ya está en mar
 
 | Página | Elemento | Valor predeterminado |
 |---|---|---|
-| General | Ejecutar al iniciar | Activado con el instalador, desactivado en la versión portable |
+| General | Ejecutar al iniciar | Activado con el instalador (no disponible en la versión portable) |
 | General | Atajo (nueva nota) | Ctrl+Shift+N |
 | General | Idioma | Sistema (idioma de visualización de Windows) |
 | Servidor | Cuenta — Iniciar sesión / Cerrar sesión | Sin sesión iniciada |

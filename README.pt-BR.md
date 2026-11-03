@@ -26,6 +26,7 @@ As notas são **salvas primeiro neste PC**, então você pode usar o Nemo sem en
 - **6 cores** — Padrão · Amarelo · Verde · Azul · Roxo · Rosa. Na lista, cada linha aparece na cor da sua nota, para distinguir de relance.
 - **Sempre visível** — uma nota fixada nunca fica escondida atrás de outras janelas.
 - **Pesquisa de notas** — a lupa da janela da lista pesquisa títulos e corpos.
+- **Sua própria ordem** — arraste as notas na lista para reordená-las. A ordem também vale nos seus outros PCs conectados.
 - **Atalho de nova nota** — pressione **Ctrl+Shift+N** em qualquer programa para abrir uma nota nova. A tecla pode ser trocada.
 - **Funciona sem servidor** — entrar numa conta é opcional. Ao sair, as notas deste PC continuam.
 - **Sincronização entre PCs e a web** — com a conta conectada, o Nemo sincroniza com o servidor 2 segundos depois de salvar, a cada 10 minutos ou quando você clica em **Sincronizar**. Se a mesma nota foi editada em dois lugares, nenhuma edição é descartada: as duas ficam, uma como **cópia de conflito**.
@@ -40,7 +41,7 @@ As notas são **salvas primeiro neste PC**, então você pode usar o Nemo sem en
 | Instalador | [Baixar](https://down.kilho.net/nemo?lang=pt) |
 | Portátil (ZIP) | [Baixar](https://down.kilho.net/nemo?lang=pt&nosetup) |
 
-Na primeira instalação, o instalador ativa **Iniciar com o Windows**. Na versão portátil, descompacte o ZIP e execute `Nemo.exe`. A versão portátil guarda suas notas na mesma pasta do programa, então mover a pasta leva as notas junto.
+Na primeira instalação, o instalador ativa **Iniciar com o Windows**. Na versão portátil, descompacte o ZIP e execute `Nemo.exe`. **Iniciar com o Windows** está disponível apenas na versão instalada. A versão portátil guarda suas notas na mesma pasta do programa, então mover a pasta leva as notas junto.
 
 ## Uso
 
@@ -62,7 +63,7 @@ Na primeira instalação, o instalador ativa **Iniciar com o Windows**. Na vers�
 | Lupa (barra de título) | Pesquisar notas. Procura nos títulos e corpos; **ESC** fecha |
 | Engrenagem (barra de título) | Configurações |
 | ✕ (barra de título) | Esconde a janela da lista na bandeja. O Nemo continua aberto |
-| Lista de notas | Mostrada na ordem em que as notas foram criadas, cada linha na cor da sua nota. Clique duplo para abrir a nota |
+| Lista de notas | Notas novas entram no topo, e você pode arrastá-las para mudar a ordem. Cada linha fica na cor da sua nota. **↑** e **↓** movem a seleção; clique duplo para abrir a nota. A barra de rolagem só aparece com o mouse sobre ela ou durante a rolagem |
 | Barra de status, esquerda | **Notas: n** |
 | Barra de status, direita — ícone de nuvem | Conexão com o servidor. Passe o mouse para ver **Salvo apenas neste PC** · **Conectado ao servidor (conta)** · **Última sincronização**; clique para abrir a página **Servidor** das Configurações |
 
@@ -73,7 +74,7 @@ Na primeira instalação, o instalador ativa **Iniciar com o Windows**. Na vers�
 | Barra de título | Arraste para mover a nota. Clique duas vezes no título ou dê um clique duplo para renomear. Botão direito abre o menu da nota |
 | Alfinete | Liga ou desliga **Sempre visível**. Desligado aparece como um alfinete riscado |
 | ✕ | Salvar e fechar |
-| Corpo | O texto da nota. Uma barra de rolagem aparece quando o mouse está sobre ela |
+| Corpo | O texto da nota. **Tab** insere 4 espaços. A barra de rolagem só aparece com o mouse sobre ela ou durante a rolagem |
 | Bordas | Arraste para redimensionar |
 
 **Menu do botão direito**
@@ -98,16 +99,22 @@ Mesmo usando outro programa, pressione **Ctrl+Shift+N** e uma nota nova aparece 
 Clique no alfinete da nota para ligar **Sempre visível**; outras janelas não vão cobri-la. Clique de novo para desligar. A fixação também volta na próxima abertura.
 
 **Quando suas notas ficam escondidas atrás de outras janelas**
-Clique com o botão esquerdo no ícone do Nemo na bandeja para trazer todas as notas abertas para a frente. A janela da lista fica onde está. Se precisar da janela da lista, clique com o botão direito no ícone da bandeja e escolha **Lista**.
+Clique com o botão esquerdo no ícone do Nemo na bandeja para trazer todas as notas abertas para a frente. A janela da lista fica onde está. Se não houver nenhuma nota aberta, a janela da lista abre no lugar. Se precisar da janela da lista com notas abertas, clique com o botão direito no ícone da bandeja e escolha **Lista**.
 
 **Quando você quer separar as notas por tipo**
 Combine as cores — amarelo para tarefas, azul para trabalho, e assim por diante. Clique com o botão direito na barra de título de uma nota ou numa nota da lista → **Cor ▸**, e a nota e a linha dela na lista mudam de cor na hora.
+
+**Quando você quer as notas mais usadas no topo**
+Pressione uma nota na lista e arraste-a até onde quiser. Arrastar até a borda da lista faz ela rolar sozinha. A nova ordem é salva na hora e, se você estiver conectado, a lista nos seus outros PCs segue a mesma ordem. Notas novas entram no topo.
 
 **Quando há notas demais para achar uma**
 Clique na lupa da barra de título da janela da lista e digite o que procura. Ficam só as notas com esse texto no título ou no corpo. Pressione **ESC** para fechar a pesquisa e ver a lista inteira de novo.
 
 **Quando você só quer renomear uma nota**
 Clique no título da nota e, um instante depois, clique de novo (como ao renomear um arquivo no Explorador de Arquivos), dê um clique duplo ou clique com o botão direito na barra de título → **Editar**. **Enter** confirma, **Esc** volta ao título anterior. Clicar em outro lugar também mantém o que você digitou.
+
+**Quando você quer recuar texto numa nota**
+Pressione **Tab** no corpo para inserir 4 espaços. Se apertou sem querer, um único Ctrl+Z apaga os 4.
 
 **Quando você quer tirar a lista do caminho, mas manter as notas**
 Clique no **✕** da janela da lista; ela vai para a bandeja e suas notas continuam na área de trabalho. Para fechar o Nemo de vez, escolha **Sair** no menu da bandeja.
@@ -116,7 +123,7 @@ Clique no **✕** da janela da lista; ela vai para a bandeja e suas notas contin
 Mesmo que você desligue o Windows ou saia do Nemo com notas abertas, elas reaparecem no mesmo lugar e tamanho na próxima vez que você abrir o Nemo. Se uma nota fosse parar fora da tela porque a configuração de monitores mudou, ela é trazida de volta para dentro da tela.
 
 **Quando você quer ver suas notas toda vez que o PC liga**
-Ative **Iniciar com o Windows** em Configurações → **Geral** (com o instalador já vem ativado). Quando o Windows inicia, o Nemo abre discretamente na bandeja, sem a janela da lista, e só as notas que você deixou abertas aparecem na área de trabalho.
+Ative **Iniciar com o Windows** em Configurações → **Geral** (com o instalador já vem ativado). Esta opção só está disponível na versão instalada; na versão portátil ela aparece esmaecida. Quando o Windows inicia, o Nemo abre discretamente na bandeja, sem a janela da lista, e só as notas que você deixou abertas aparecem na área de trabalho.
 
 **Quando você quer as mesmas notas no trabalho e em casa**
 Nos dois PCs, clique em **Entrar** em Configurações → **Servidor**. O navegador abre; entre com sua conta Kilho.net e, quando aparecer a página "Login realizado", feche-a e volte ao Nemo. A partir daí as notas se sincronizam sozinhas 2 segundos depois de salvar e a cada 10 minutos. Para sincronizar agora, clique em **Sincronizar**.
@@ -157,7 +164,7 @@ Abra pela engrenagem da janela da lista ou por **Configurações** no menu do bo
 
 | Página | Item | Padrão |
 |---|---|---|
-| Geral | Iniciar com o Windows | Ligado no instalador, desligado na versão portátil |
+| Geral | Iniciar com o Windows | Ligado no instalador (indisponível na versão portátil) |
 | Geral | Atalho (nova nota) | Ctrl+Shift+N |
 | Geral | Idioma | Sistema (idioma de exibição do Windows) |
 | Servidor | Conta — Entrar / Sair | Sem login |

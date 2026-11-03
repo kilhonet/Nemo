@@ -26,6 +26,7 @@ Notes are **saved on this PC first**, so you can use Nemo without signing in and
 - **6 colors** — Default · Yellow · Green · Blue · Purple · Pink. The list shows each row in its note's color, so you can tell them apart at a glance.
 - **Always on top** — a pinned note never gets hidden behind other windows.
 - **Note search** — the magnifier in the list window searches titles and bodies.
+- **Your own order** — drag notes in the list to reorder them. The order carries over to your other signed-in PCs.
 - **New note shortcut** — press **Ctrl+Shift+N** from any program to open a new note. You can change the key.
 - **Works without a server** — signing in is optional. When you sign out, the notes on this PC stay.
 - **Sync across PCs and the web** — once signed in, Nemo syncs with the server 2 seconds after saving, every 10 minutes, or when you click **Sync now**. If the same note was edited in two places, neither edit is thrown away: both are kept, one as a **conflict copy**.
@@ -40,7 +41,7 @@ Notes are **saved on this PC first**, so you can use Nemo without signing in and
 | Installer | [Download](https://down.kilho.net/nemo?lang=en) |
 | Portable (ZIP) | [Download](https://down.kilho.net/nemo?lang=en&nosetup) |
 
-A first-time install of the installer version turns on **Run at startup**. For the portable version, unzip it and run `Nemo.exe`. The portable version keeps your notes in the same folder as the program, so moving the folder moves your notes with it.
+A first-time install of the installer version turns on **Run at startup**. For the portable version, unzip it and run `Nemo.exe`. **Run at startup** is available only in the installed version. The portable version keeps your notes in the same folder as the program, so moving the folder moves your notes with it.
 
 ## Usage
 
@@ -62,7 +63,7 @@ A first-time install of the installer version turns on **Run at startup**. For t
 | Magnifier (caption) | Search notes. Looks in titles and bodies; **ESC** closes it |
 | Gear (caption) | Settings |
 | ✕ (caption) | Hides the list window to the tray. Nemo keeps running |
-| Note list | Shown in the order the notes were created, each row in its note's color. Double-click to open the note |
+| Note list | New notes go on top, and you can drag notes to reorder them. Each row is in its note's color. **↑** and **↓** move the selection; double-click to open the note. The scroll bar shows only while the mouse is over it or while scrolling |
 | Status bar, left | **Notes: n** |
 | Status bar, right — cloud icon | Server connection. Hover to see **Saved on this PC only** · **Connected to server (account)** · **Last sync**; click to open the **Server** page of Settings |
 
@@ -73,7 +74,7 @@ A first-time install of the installer version turns on **Run at startup**. For t
 | Title bar | Drag to move the note. Click the title twice or double-click it to rename. Right-click for the note menu |
 | Pin | Turns **Always on top** on or off. Off is shown as a pin with a slash |
 | ✕ | Save and close |
-| Body | The note's text. A scroll bar appears when the mouse is over it |
+| Body | The note's text. **Tab** inserts 4 spaces. The scroll bar shows only while the mouse is over it or while scrolling |
 | Edges | Drag to resize |
 
 **Right-click menu**
@@ -98,16 +99,22 @@ Even while you're in another program, press **Ctrl+Shift+N** and a new note pops
 Click the note's pin to turn on **Always on top**; other windows won't cover it. Click again to turn it off. The pin is restored on the next launch, too.
 
 **When your notes are buried behind other windows**
-Left-click the Nemo tray icon to bring every open note to the front. The list window stays where it is. If you need the list window, right-click the tray icon and choose **List**.
+Left-click the Nemo tray icon to bring every open note to the front. The list window stays where it is. If no notes are open, the list window opens instead. If you need the list window while notes are open, right-click the tray icon and choose **List**.
 
 **When you want to sort notes by kind**
 Pick a color scheme — yellow for to-dos, blue for work, and so on. Right-click a note's title bar or a note in the list → **Color ▸**, and both the note and its row in the list change color right away.
+
+**When you want the notes you use most at the top**
+Press on a note in the list and drag it where you want it. Dragging to the edge of the list scrolls it for you. The new order is saved right away, and if you are signed in, the list on your other PCs follows the same order. New notes are added at the top.
 
 **When you have too many notes to find one**
 Click the magnifier in the list window's caption and type what you're looking for. Only notes with that text in the title or body remain. Press **ESC** to close the search and see the whole list again.
 
 **When you only want to rename a note**
 Click the note's title, then click it once more a moment later (just like renaming a file in File Explorer), double-click it, or right-click the title bar → **Edit**. **Enter** confirms, **Esc** brings back the old title. Clicking somewhere else also keeps what you typed.
+
+**When you want to indent text in a note**
+Press **Tab** in the body to insert 4 spaces. If you pressed it by mistake, a single Ctrl+Z removes all 4.
 
 **When you want the list out of the way but the notes kept**
 Click **✕** on the list window; it goes to the tray and your notes stay on the desktop. To close Nemo completely, choose **Quit** from the tray menu.
@@ -116,7 +123,7 @@ Click **✕** on the list window; it goes to the tray and your notes stay on the
 Even if you shut down Windows or quit Nemo with notes still open, they reappear in the same place and size the next time you start Nemo. If a note would land off screen because your monitor setup changed, it is moved back onto the screen.
 
 **When you want your notes every time the PC starts**
-Turn on **Run at startup** in Settings → **General** (it is already on with the installer). When Windows starts, Nemo starts quietly in the tray without the list window, and only the notes you left open appear on the desktop.
+Turn on **Run at startup** in Settings → **General** (it is already on with the installer). This option is available only in the installed version; in the portable version it is grayed out. When Windows starts, Nemo starts quietly in the tray without the list window, and only the notes you left open appear on the desktop.
 
 **When you want the same notes at work and at home**
 On both PCs, click **Sign in** in Settings → **Server**. Your browser opens; sign in with your Kilho.net account, and when the "Signed in" page appears, close it and return to Nemo. From then on, notes sync by themselves 2 seconds after saving and every 10 minutes. To sync right now, click **Sync now**.
@@ -157,7 +164,7 @@ Open it from the gear in the list window or **Settings** in the right-click menu
 
 | Page | Item | Default |
 |---|---|---|
-| General | Run at startup | On for the installer, off for the portable version |
+| General | Run at startup | On for the installer (not available in the portable version) |
 | General | Shortcut (new note) | Ctrl+Shift+N |
 | General | Language | System (Windows display language) |
 | Server | Account — Sign in / Sign out | Not signed in |
